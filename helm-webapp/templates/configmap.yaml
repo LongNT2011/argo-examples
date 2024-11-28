@@ -1,7 +1,7 @@
 kind: ConfigMap 
 apiVersion: v1 
 metadata:
-  name: configmap-v2
+  name: {{ .Values.configmap.data.name }}
 data:
   BG_COLOR: '#12181b'
   FONT_COLOR: '#FFFFFF'
