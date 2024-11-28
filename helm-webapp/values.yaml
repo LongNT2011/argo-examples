@@ -3,9 +3,9 @@ appName: myhelmapp
 port: 80
 
 configmap:
-  name: myhelmapp-configmap-v4
+  name: myhelmapp-configmap-v5
   data:
-    CUSTOM_HEADER: 'This app was deployed with longnt!'
+    CUSTOM_HEADER: 'This app was deployed ao that day!'
 
 image:
   name: devopsjourney1/mywebapp
